@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 140px;
+}
+
+.container{
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
+.container h1{
+    margin: 0 0 20px 0;
+    font-size: 55px;
+}
+
+.container p{
+    margin: 0 0 10px 0;
+    font-size: 19px;
+}
+
+.countdown-style{
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.countdown-style p{
+    padding: 0 24px;
+}
+
+.time{
+    color: #3da570;
+    text-align: center;
+    font-size: 63px;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 700px) {
+
+    #time{
+        width: 80%;
+    }
+}
